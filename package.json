@@ -1,0 +1,34 @@
+{
+  "name": "repo-runner-agent",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node examples/run.ts",
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "clean:win": "rmdir /s /q dist"
+  },
+  "keywords": [
+    "git",
+    "ai",
+    "llm",
+    "openai",
+    "automation",
+    "build",
+    "run"
+  ],
+  "author": "Yassin Younis",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "execa": "^9.5.2",
+    "openai": "^4.95.0",
+    "simple-git": "^3.27.0"
+  }
+}
